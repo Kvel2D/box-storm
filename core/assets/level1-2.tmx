@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="16" tileheight="16" nextobjectid="1127">
+ <tileset firstgid="1" name="tiles" tilewidth="16" tileheight="16">
+  <image source="tiles.png" width="160" height="320"/>
+ </tileset>
+ <layer name="background" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJwTYmBgEBrFo3iQY+5B4IZRPIpHMSoGAA6AHBo=
+  </data>
+ </layer>
+ <layer name="walls" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzNVEkKADEI89Be+4U5OP9/Y0+CSNxAhhECpaZptMsmoj2MLCoc4XX0Mk+ZHg/6284YxUtxD+3c1/6sXuSPA57EKXAq/jwflf4h3gLr7Bza+zgcne+cr7cn8hD15k/32b5D3bNpf9l5dPWyfyOrV+sx9et9ADwNxNVrBOhOClaQs7jKuAVv
+  </data>
+ </layer>
+ <objectgroup name="lasers">
+  <object id="1113" type="1" x="249" y="136.333"/>
+ </objectgroup>
+ <objectgroup name="movables"/>
+ <objectgroup name="player">
+  <object id="472" name="player" x="27.917" y="261">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="buttons"/>
+ <objectgroup name="spikes">
+  <object id="1102" x="119.667" y="200.667"/>
+  <object id="1103" x="24" y="297"/>
+  <object id="1104" x="35.6667" y="296.333"/>
+  <object id="1105" x="52.6667" y="296"/>
+  <object id="1106" x="69" y="295.333"/>
+  <object id="1107" x="85" y="295.333"/>
+  <object id="1108" x="136" y="278.333"/>
+  <object id="1110" x="119.667" y="54.6667"/>
+  <object id="1111" x="136.667" y="120.333"/>
+  <object id="1115" type="2" x="281" y="70.6667"/>
+  <object id="1118" type="2" x="278.667" y="215.667"/>
+  <object id="1119" type="2" x="279.667" y="261.667"/>
+  <object id="1120" x="200" y="296.667"/>
+  <object id="1121" x="217.667" y="296.333"/>
+  <object id="1122" x="234.667" y="296.667"/>
+  <object id="1123" x="249.667" y="297.667"/>
+  <object id="1124" x="264.333" y="298.333"/>
+  <object id="1125" x="278.667" y="295.333"/>
+  <object id="1126" x="295.667" y="296"/>
+ </objectgroup>
+ <objectgroup name="connection"/>
+ <objectgroup name="winbox">
+  <object id="1100" x="168.667" y="135.917"/>
+ </objectgroup>
+</map>

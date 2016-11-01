@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="16" tileheight="16" nextobjectid="375">
+ <tileset firstgid="1" name="tiles" tilewidth="16" tileheight="16">
+  <image source="tiles.png" width="160" height="320"/>
+ </tileset>
+ <layer name="background" width="16" height="16" opacity="0.37">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4BjFo3gUj0gMABTwCAE=
+  </data>
+ </layer>
+ <layer name="walls" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYmBgYMKDmQnIgzC5gFr6yXEPst+IUYvPfnIBJfrR/YvNHGzmM+GQp6Z+fH5C14PPfkIAl/sksagVQ1MrhUM/LgBTL4FmHrHhB2PLYNEviuRuGB+X+3HlTV4s8sRgADWuAec=
+  </data>
+ </layer>
+ <layer name="background2" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgsGGAAEsgtmIgHRhBaW0g1iFDfygQhwFxOBBHEKmHmwx7cAGQn7WAWJ9M/S5UdMtIBaYU6reA0uSkXxBwgtK6QKwHZcPSJbnABmoeOvAiUr8RYSUUAwB20gZJ
+  </data>
+ </layer>
+ <objectgroup name="lasers">
+  <object id="351" name="horizontal" type="1" x="120" y="120.75"/>
+  <object id="352" type="1" x="135.75" y="120.75"/>
+  <object id="353" type="1" x="120" y="135.5"/>
+  <object id="354" name="horizontal" type="1" x="137.5" y="136.25"/>
+ </objectgroup>
+ <objectgroup name="movables"/>
+ <objectgroup name="player">
+  <object id="323" name="player" x="29" y="35.583">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="buttons"/>
+ <objectgroup name="spikes">
+  <object id="356" type="2" x="168" y="183.818"/>
+  <object id="357" type="2" x="167.455" y="200.182"/>
+  <object id="358" type="2" x="168.909" y="230.545"/>
+  <object id="359" type="2" x="233.091" y="184"/>
+  <object id="360" type="2" x="234.182" y="199.455"/>
+  <object id="361" type="2" x="232.727" y="215.455"/>
+  <object id="362" type="1" x="87.8182" y="230"/>
+  <object id="363" type="1" x="56.9091" y="231.455"/>
+  <object id="364" type="1" x="24" y="230.364"/>
+  <object id="368" type="3" x="197.818" y="200.182"/>
+  <object id="369" type="3" x="199.091" y="216.545"/>
+  <object id="373" type="1" x="89.5" y="183.5"/>
+ </objectgroup>
+ <objectgroup name="connection"/>
+ <objectgroup name="winbox">
+  <object id="355" x="232.25" y="40"/>
+ </objectgroup>
+</map>

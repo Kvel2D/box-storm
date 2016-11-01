@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="16" tileheight="16" nextobjectid="325">
+ <tileset firstgid="1" name="tiles" tilewidth="16" tileheight="16">
+  <image source="tiles.png" width="160" height="320"/>
+ </tileset>
+ <layer name="background3" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYmBgYKIAUwooNQNdPz7zqOVmaoHB5JaRCiiJg8GS/inBAK44AFM=
+  </data>
+ </layer>
+ <layer name="color2" width="16" height="16" opacity="0.63">
+  <data encoding="base64" compression="zlib">
+   eJzjZGBg4KQADzQYaDcMtP0DCUB+56IAU6qfXCwApYUGyH5q+h89P5KqBwBhfgUR
+  </data>
+ </layer>
+ <layer name="color" width="16" height="16" opacity="0.84">
+  <data encoding="base64" compression="zlib">
+   eJxjY2BgYCMBC0AxjM+AJDYYMD3dM9j8PoqHHhaign5KMABuiw9n
+  </data>
+ </layer>
+ <layer name="background2" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg8IAqKcQEfGtkbDMRhJKrHBbQpcEcABXqxAXzupAcAxWUkCWpBGJ+bw6Dm4UsjQxEgp3sQjexPGD+QgTb+BgCXlwkA
+  </data>
+ </layer>
+ <layer name="background" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg8wAOI/fDI+9DQbm4qmaNNgd4AKrlhsABQfHmTqN6DgBp/Es0cCgA93r0YEH70ZYCECa3SBgCqtQT4
+  </data>
+ </layer>
+ <layer name="walls" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJyVU8EOQBEMWzg7ioj//8/n3ZqmKyQNW9cpokREuUA13NoYMA+IC6yX4H644XjWq36OV3E1+pboFVjP95j5VZ45p/zz+lZfTW3WE7mXvVTu9L78Hpke/cyNbmJ3/1jTKM5qb/yd+H6oRc2M/E+6f6rO9gEolQLq
+  </data>
+ </layer>
+ <layer name="plants" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJydk4sOgjAMRfc7IEp8oYAk+Pz/T3I3trHelME8SbN29LGuI4Qvq+BTRqlEx7qb8GNOsjZGz+Ea5RBlFH2OQmpZWqPj7Bf6viZ7JPtO9supuyXb9qrxZ7O3d3LUcj70YHvVe7+Fz72j1uDE/4uepcyM07fSJr2m0Xp8v5YmIz/m2offPgbKj1yd+DGY63OmBnI9FvgBzKugvcpzTLB0zvhHjrSHt1KLvknEvgGJgA3o
+  </data>
+ </layer>
+ <objectgroup name="lasers"/>
+ <objectgroup name="movables">
+  <object id="296" x="55.4545" y="168"/>
+  <object id="301" x="199.636" y="167.818"/>
+ </objectgroup>
+ <objectgroup name="player">
+  <object id="289" name="player" x="48.0455" y="105.091">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="buttons"/>
+ <objectgroup name="spikes">
+  <object id="302" type="1" x="86.7273" y="184.545"/>
+  <object id="303" type="1" x="103.091" y="184"/>
+  <object id="304" type="1" x="151.818" y="184.182"/>
+  <object id="305" type="1" x="167.455" y="185.091"/>
+  <object id="306" type="1" x="40.1818" y="232"/>
+  <object id="307" type="1" x="216.727" y="231.636"/>
+  <object id="308" type="3" x="24.5455" y="23.2727"/>
+  <object id="310" type="3" x="38.9091" y="24"/>
+  <object id="311" type="3" x="56" y="24.1818"/>
+  <object id="312" type="3" x="72.1818" y="24"/>
+  <object id="313" type="3" x="87.6364" y="24.5455"/>
+  <object id="314" type="3" x="105.273" y="24"/>
+  <object id="315" type="3" x="120.545" y="22.7273"/>
+  <object id="316" type="3" x="150.909" y="22.3636"/>
+  <object id="317" type="3" x="165.636" y="22.5455"/>
+  <object id="318" type="3" x="180" y="23.0909"/>
+  <object id="319" type="3" x="195.818" y="23.8182"/>
+  <object id="320" type="3" x="214.364" y="24.3636"/>
+  <object id="321" type="3" x="230.364" y="24"/>
+ </objectgroup>
+ <objectgroup name="connection"/>
+ <objectgroup name="winbox">
+  <object id="324" x="40.3636" y="71.4545"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="40" tilewidth="16" tileheight="16" nextobjectid="1256">
+ <tileset firstgid="1" name="tiles" tilewidth="16" tileheight="16">
+  <image source="tiles.png" width="160" height="320"/>
+ </tileset>
+ <layer name="background" width="32" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztlNEKwCAIRWUR9LK/7f8ZexhI1Eqr6xgKFwapx9SWiCi5XEodhtxSVuwTWEONierDnTswTmjwA3DmrRpQfPQMrNW6I2r/RvioGtD3t+Zb9x/x/nqxs+zZc+5TMiWxkt3aMT/n/4+fwXzun5X8uIiP7r/mn/dFfnSp9Bj/JmGOMvYtz6iflDNiO3PP2iq+dgfignhNH2t8bbzLThfnwR64
+  </data>
+ </layer>
+ <layer name="color2" width="32" height="40" opacity="0.76">
+  <data encoding="base64" compression="zlib">
+   eJztkcEKgCAMhncKunbvbO//hF0KhlhsyynE98OHim7/3IqIFAAAACfrQK/F6N9694f/z/Zv9VUG9t+aN3P+m3HNZKY3AADM5Va9j+bR0vd7Ut1PssR7c+qY3vL4v+kIoPN+iS/X2TPH+n00PlI39OMEcky3RQ==
+  </data>
+ </layer>
+ <layer name="walls" width="32" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzVlt0OgjAMhReUS7xDQzTxgsfyX9//HYTEJbPp6Gk3nDQ5Acbar2cOsHLOVYVVKpbGPxXgn5mxluT68zaRj/jz7Fg9TQ+c/+egl4Ft6cHzr4NuwlyELfVwH/Rg+FJsFeyw9iFy71KYH85B3ke5+Nb3n+drhfpHg86thHGkXsr7N8bX5HO56Ldqyj+av/T1T6nxT99faW2t/2uQPdJF7nfkqBXNj/Hp72BhadaEYzRMf47kpZ5L/lPXoDF6556DOdee1m9cvL/VTD3k8L//aJfoP9af5H2qHpeLshH/XEj7UaqPslE+wqgD/TJqok1hPpVz32vC3aPn3HyUN/pfB9d9cOyD8XHOcYJP59PrDdCLRoi3OZWLbwlun2jzrT44vjXf0rdmPHfk5IfPR8+IG6fPVmxMqjEe3847ENE=
+  </data>
+ </layer>
+ <layer name="color1" width="32" height="40" opacity="0.56">
+  <data encoding="base64" compression="zlib">
+   eJztllkKhTAMRftV8Deb8O1/hSIohPBKBpNekQYurXY4iZE2rS1bFjcCcfslYv2ZbPqjGT6M2DN80NjVPljYt77If4ONYpwR+27k74U+IONH89HfX/JHesKvPsO1/ZH83mrvUm1/fqeftrGxjL5WK6Djr65l5Pf1jmfxrfnXzHvmZeffy8/Mf6TmsObfYtGax5r/Knn43fjOM9eTX+6T9FPO42MkniPnCZpvNXStncWP/MtNtJH1v0vE+hbRoI2sX8LpAPI0GxY=
+  </data>
+ </layer>
+ <layer name="assets" width="32" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztlMsKwjAQRYNbP8FFFv02n9WiYjcG/HYTzMAw5DE0ia04By5N87h30rRVSgDOVherITFnmxg7JcZ2VvspRUVwXgerY0VPTK8+NZeQqq8v9BZ+k9J3qgUrJEEQhH+m1X9w6f/Xb9VXK+dqdfO6V/J05OqD3NHKeL0q+HJ5+swNUo39c+pze4d9Yx6Kfw44B85vjPhRhbIBk1kX8jdI2CenWD53HdezFUvMp7XEnpeKtEPzuXlUHbp2kbFQvvbC93R9TU3Z21xnLiyX9Ux58H3htib9mvQrMp/2aaaHu74BCIhSOA==
+  </data>
+ </layer>
+ <objectgroup name="lasers"/>
+ <objectgroup name="movables">
+  <object id="1151" x="249.667" y="167"/>
+  <object id="1152" x="217.667" y="167.333"/>
+  <object id="1153" x="217" y="151"/>
+  <object id="1154" x="217" y="134.667"/>
+  <object id="1155" x="200.333" y="168.667"/>
+  <object id="1156" x="202.333" y="153.667"/>
+  <object id="1157" x="182" y="168.667"/>
+  <object id="1158" x="183.333" y="150.333"/>
+  <object id="1159" x="345.667" y="169.333"/>
+  <object id="1160" x="332.333" y="169.333"/>
+  <object id="1161" x="311.667" y="168.333"/>
+  <object id="1162" x="295.333" y="168.333"/>
+  <object id="1163" x="282" y="168"/>
+  <object id="1164" x="282.333" y="152.333"/>
+  <object id="1165" x="282" y="135.667"/>
+  <object id="1166" x="281.667" y="120.667"/>
+  <object id="1167" x="311.333" y="150.667"/>
+  <object id="1168" x="311.667" y="135"/>
+  <object id="1169" x="328.333" y="152.333"/>
+  <object id="1170" x="297.333" y="149.667"/>
+  <object id="1171" x="281.667" y="103.667"/>
+  <object id="1172" x="296.667" y="134"/>
+  <object id="1173" x="297.667" y="118.667"/>
+  <object id="1174" x="56.5" y="154"/>
+  <object id="1177" x="152.5" y="216.5"/>
+  <object id="1179" x="344" y="214"/>
+  <object id="1180" x="441.5" y="151"/>
+  <object id="1253" x="421" y="214"/>
+ </objectgroup>
+ <objectgroup name="player">
+  <object id="1183" name="player" x="265.5" y="165.333">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="buttons"/>
+ <objectgroup name="spikes">
+  <object id="1188" type="1" x="328.667" y="631.333"/>
+  <object id="1189" type="1" x="346" y="632"/>
+  <object id="1190" type="1" x="360" y="632.667"/>
+  <object id="1191" type="1" x="377.333" y="632"/>
+  <object id="1192" type="1" x="389.333" y="632"/>
+  <object id="1193" type="1" x="422.667" y="634"/>
+  <object id="1194" type="1" x="440" y="631.333"/>
+  <object id="1195" type="1" x="456.667" y="632.667"/>
+  <object id="1196" type="1" x="474.667" y="633.333"/>
+  <object id="1197" type="1" x="503.333" y="632"/>
+  <object id="1198" type="1" x="281.333" y="630"/>
+  <object id="1199" type="1" x="263.333" y="633.333"/>
+  <object id="1200" type="1" x="247.333" y="632"/>
+  <object id="1201" type="1" x="202.667" y="633.333"/>
+  <object id="1202" type="1" x="182.667" y="633.333"/>
+  <object id="1203" type="1" x="166.667" y="629.333"/>
+  <object id="1204" type="1" x="150.667" y="630"/>
+  <object id="1205" type="1" x="119.333" y="632.667"/>
+  <object id="1206" type="1" x="104" y="632.667"/>
+  <object id="1207" type="1" x="82" y="630"/>
+  <object id="1208" type="1" x="70.6667" y="632.667"/>
+  <object id="1209" type="1" x="53.3333" y="631.333"/>
+  <object id="1210" type="1" x="22" y="628.667"/>
+  <object id="1211" type="1" x="4" y="631.333"/>
+  <object id="1212" type="1" x="103.333" y="516.667"/>
+  <object id="1213" type="1" x="154.667" y="518"/>
+  <object id="1214" type="1" x="214.667" y="519.333"/>
+  <object id="1215" type="1" x="330" y="520.667"/>
+  <object id="1216" type="1" x="342.667" y="518.667"/>
+  <object id="1217" type="1" x="392.667" y="518.667"/>
+  <object id="1218" type="1" x="406.667" y="521.333"/>
+  <object id="1220" type="1" x="409.333" y="311.333"/>
+  <object id="1223" type="1" x="377.333" y="313.333"/>
+  <object id="1225" type="1" x="156.667" y="311.333"/>
+  <object id="1228" type="1" x="120.667" y="310.667"/>
+  <object id="1231" type="1" x="26" y="311.333"/>
+  <object id="1232" type="1" x="170" y="119.333"/>
+  <object id="1233" type="1" x="185.333" y="104.667"/>
+  <object id="1234" type="1" x="200" y="90.6667"/>
+  <object id="1235" type="1" x="216.667" y="75.3333"/>
+  <object id="1236" type="1" x="312" y="74"/>
+  <object id="1237" type="1" x="330" y="88.6667"/>
+  <object id="1238" type="1" x="346" y="104.667"/>
+  <object id="1239" type="1" x="358.667" y="118.667"/>
+  <object id="1240" type="4" x="374.667" y="136.667"/>
+  <object id="1244" type="2" x="152" y="137"/>
+  <object id="1245" type="4" x="376.667" y="150.667"/>
+  <object id="1246" type="4" x="374.667" y="162.667"/>
+  <object id="1247" type="4" x="375.667" y="183"/>
+  <object id="1248" type="2" x="153.333" y="150.667"/>
+  <object id="1249" type="2" x="156" y="162"/>
+  <object id="1250" type="2" x="155.333" y="181.333"/>
+  <object id="1255" type="1" x="137" y="520"/>
+ </objectgroup>
+ <objectgroup name="connection"/>
+ <objectgroup name="winbox">
+  <object id="1181" x="40" y="614"/>
+  <object id="1182" x="490" y="614.667"/>
+ </objectgroup>
+</map>

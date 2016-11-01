@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="16" tileheight="16" nextobjectid="312">
+ <tileset firstgid="1" name="tiles" tilewidth="16" tileheight="16">
+  <image source="tiles.png" width="160" height="320"/>
+ </tileset>
+ <layer name="background" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztw6ENAAAIA7B5/v8XM48maZMmfDUNAAAAlwVJuwAX
+  </data>
+ </layer>
+ <layer name="walls" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzllVEOhCAMRAl3QPf+J90fSUjTmWlBNJtt0ijY6StVsJZS6sueMRRv5yN57+TP2EwP2PpVjy0LjT2NN1accezVHuF760SW4au6FR/pFT/bf8RHesW3uSI98bSstiw/+k6jln2HTLuDb+O82rxYe22Xq+8P5c6cPYyhnmX2GdLMWoRl5yJ5lLMcjL/TGH91fSqOzfX7D6n9SMRE6mR8T2/5HudwdKhGj9/tHNzWXYeYPj5BjDLEZ/FIj2IU2+vFE3zGbIM/zVd76A4+63km3+r59ev6Fcvu1Z01/Du/veTZf+4O/wJuhQb5
+  </data>
+ </layer>
+ <objectgroup name="lasers">
+  <object id="291" name="horizontal" type="1" x="246" y="408"/>
+  <object id="292" name="horizontal" type="1" x="262.5" y="408.5"/>
+  <object id="295" name="horizontal" type="2" x="361" y="22.5"/>
+  <object id="299" type="3" x="296.5" y="24"/>
+  <object id="308" type="3" x="488.5" y="88.5"/>
+ </objectgroup>
+ <objectgroup name="movables">
+  <object id="139" x="56" y="247"/>
+  <object id="140" x="71.5" y="199"/>
+  <object id="146" x="135" y="200"/>
+  <object id="147" x="135" y="183.5"/>
+  <object id="148" x="86" y="151"/>
+  <object id="151" x="87" y="55"/>
+  <object id="152" x="135" y="55.5"/>
+  <object id="153" x="168.5" y="55"/>
+  <object id="154" x="232.5" y="87"/>
+  <object id="155" x="280.5" y="88"/>
+  <object id="289" x="120.5" y="280.5"/>
+  <object id="293" x="487.5" y="470.5"/>
+  <object id="300" x="312.5" y="39"/>
+  <object id="302" x="392.5" y="40.5"/>
+  <object id="304" x="409" y="184.5"/>
+  <object id="310" x="103" y="199.5"/>
+  <object id="311" x="136" y="471.5"/>
+ </objectgroup>
+ <objectgroup name="player">
+  <object id="129" name="player" x="257.94" y="89.833">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="buttons">
+  <object id="290" type="1" x="132.5" y="359"/>
+  <object id="298" type="2" x="393.5" y="184"/>
+  <object id="307" type="3" x="426" y="183.5"/>
+ </objectgroup>
+ <objectgroup name="spikes">
+  <object id="133" type="1" x="249.167" y="183.833"/>
+  <object id="134" type="1" x="264.75" y="184.25"/>
+  <object id="162" type="3" x="91" y="310.333"/>
+  <object id="183" type="1" x="88.5833" y="358.667"/>
+  <object id="185" type="4" x="57" y="279.333"/>
+  <object id="186" type="4" x="57.6667" y="296.333"/>
+  <object id="187" type="4" x="200.667" y="279.333"/>
+  <object id="188" type="4" x="201.667" y="295.667"/>
+  <object id="191" type="3" x="106.409" y="309.545"/>
+  <object id="194" type="3" x="233.5" y="311.375"/>
+  <object id="200" type="2" x="169.5" y="279.5"/>
+  <object id="201" type="2" x="170" y="296"/>
+  <object id="202" type="2" x="312" y="278.5"/>
+  <object id="203" type="2" x="313.5" y="295"/>
+  <object id="205" type="2" x="456" y="295.5"/>
+  <object id="207" type="1" x="105.318" y="359.273"/>
+  <object id="217" type="1" x="119.5" y="360"/>
+  <object id="218" type="3" x="118.5" y="310.5"/>
+  <object id="219" type="3" x="278.625" y="311.25"/>
+  <object id="258" type="1" x="27.5" y="488.5"/>
+  <object id="259" type="1" x="41.0909" y="488.909"/>
+  <object id="260" type="1" x="55.2727" y="488.909"/>
+  <object id="261" type="1" x="69.6364" y="488.909"/>
+  <object id="262" type="1" x="86.5455" y="488.545"/>
+  <object id="263" type="1" x="103.091" y="487.455"/>
+  <object id="264" type="1" x="119.091" y="486.909"/>
+  <object id="265" type="1" x="136.182" y="487.091"/>
+  <object id="266" type="1" x="152.364" y="488.364"/>
+  <object id="267" type="1" x="168.727" y="489.091"/>
+  <object id="268" type="1" x="184.364" y="488.727"/>
+  <object id="269" type="1" x="201.273" y="488.727"/>
+  <object id="270" type="1" x="217.636" y="488.545"/>
+  <object id="271" type="1" x="231.273" y="488"/>
+  <object id="272" type="1" x="245.273" y="489.818"/>
+  <object id="273" type="1" x="262.727" y="488.364"/>
+  <object id="274" type="1" x="280" y="489.091"/>
+  <object id="275" type="1" x="295.455" y="488.909"/>
+  <object id="276" type="1" x="310.364" y="487.455"/>
+  <object id="277" type="1" x="327.455" y="487.273"/>
+  <object id="278" type="1" x="342.182" y="488"/>
+  <object id="279" type="1" x="359.273" y="488.182"/>
+  <object id="280" type="1" x="376.727" y="488.727"/>
+  <object id="281" type="1" x="392.182" y="487.273"/>
+  <object id="282" type="1" x="408.364" y="488.182"/>
+  <object id="283" type="1" x="424.545" y="487.273"/>
+  <object id="284" type="1" x="439.455" y="488"/>
+  <object id="285" type="1" x="456.545" y="488"/>
+  <object id="286" type="1" x="472.364" y="488"/>
+  <object id="287" type="1" x="489.455" y="488"/>
+ </objectgroup>
+ <objectgroup name="connection"/>
+ <objectgroup name="winbox">
+  <object id="136" x="247.091" y="55.8182"/>
+  <object id="137" x="262.545" y="54.9091"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="16" tilewidth="16" tileheight="16" nextobjectid="389">
+ <tileset firstgid="1" name="tiles" tilewidth="16" tileheight="16">
+  <image source="tiles.png" width="160" height="320"/>
+ </tileset>
+ <layer name="background" width="50" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztw8EJAAAMA6Ej+w/dLfpScNVUVVUfHitJBkE=
+  </data>
+ </layer>
+ <layer name="color" width="50" height="16" opacity="0.81">
+  <data encoding="base64" compression="zlib">
+   eJztzrEJAAAIBLHfwf13tbW1EiEH6a+SFAAAsDa7fvmiAW1NOyg=
+  </data>
+ </layer>
+ <layer name="walls" width="50" height="16">
+  <data encoding="base64" compression="zlib">
+   eJzdVkEKBDEIK71ur/OE/f8X91QQMSYphYEVZIpjozajnTnGmH+iUaawzlK927Yl+Ci4LE+nDvUsWNzOpuSCcluDyw0+lPpVYXWgOG7MG3w4sTo+3P5YBVbk40nqfldoL+PaqYPhdD6dneGzb7TyRftO5xUSd244vXba5zlWdyb5yfAQNuPHkYqPb9Btyz2j9E3cu9fo3Cqben+oPCu4yoxGOSj3SSefgKveH87sqt5V8arZuf2e4umeX5WbmqczC08U5aj+X93ig/kzHNarqH7nTlxAb3Pypv4AosUF6w==
+  </data>
+ </layer>
+ <layer name="assets" width="50" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF9ACKUDyUADcWMVUoJhUw4WCPBADzLw8UDwZAbhzwoGF6AWxpkdqAiYFwuOCSp0QvNv20zCND1eyBsIcUQI6bSC1LB6O/qQHI9RehPEUNQEo5N1DxQ4y9hPyBXv4M1rQ2WOpQdCCJhIkBg9Uf9AQAxUkBvw==
+  </data>
+ </layer>
+ <layer name="color2" width="50" height="16" opacity="0.81">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFyEAXiPWAWB+IDcjQrwPExkCsRU1HDRCwHWgH4AHCA2iXMJ3tHwXUB8JoeCQCUyA2A2JzILYYYLeQC0BxZw/EDkDsCMROA+qaUUBLQM98agnEVlQ0TxgHm9bAGYhdCKgZDOXfYHADpWCk1yfkAADI5wWa
+  </data>
+ </layer>
+ <objectgroup name="lasers"/>
+ <objectgroup name="movables">
+  <object id="388" x="360" y="88.1818"/>
+ </objectgroup>
+ <objectgroup name="player">
+  <object id="387" name="player" x="33.3333" y="129.333">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="buttons"/>
+ <objectgroup name="spikes">
+  <object id="375" type="1" x="696.5" y="232.75"/>
+  <object id="376" type="1" x="712" y="232.25"/>
+  <object id="377" type="1" x="727.75" y="232.5"/>
+  <object id="378" type="1" x="744" y="233"/>
+  <object id="379" type="1" x="759.5" y="231.75"/>
+  <object id="380" type="1" x="776.75" y="231.75"/>
+  <object id="381" type="3" x="439.75" y="151.75"/>
+  <object id="382" type="3" x="456.75" y="151.75"/>
+  <object id="383" type="3" x="471.75" y="151.5"/>
+  <object id="384" type="2" x="343.75" y="184.25"/>
+ </objectgroup>
+ <objectgroup name="connection"/>
+ <objectgroup name="winbox">
+  <object id="385" x="648" y="36.75"/>
+  <object id="386" x="663.25" y="38.75"/>
+ </objectgroup>
+ <layer name="Слой тайлов 6" width="50" height="16" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztlssNACAIQz27/8AuAKktiJ/YhJMovBqJrX19rVV34jZZPSMOj32nD1btGY7ousqP8qo5lH0op+o+kO8ZHMx5q/yOcij1FF8ZDu/tZHKgvCwOa43lmA2m3yhH9UxX5yoza07WSxw3/41UDeiQBE0=
+  </data>
+ </layer>
+</map>
